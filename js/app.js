@@ -5,31 +5,31 @@ let books = [
                 title: 'Angular Com Typescript',
                 author: "Yakov Fain",
                 alreadyRead: true,
-                imageUrl: 'js_library/livros/angular.jpg',
+                imageUrl: 'livros/angular.jpg',
             },
             {
                 title: 'Blockchain com JS',
                 author: "Bina Ramamurthy",
                 alreadyRead: false,
-                imageUrl: 'exercicioDOM-2-inicio/livros/blockchain.jpg',
+                imageUrl: 'livros/blockchain.jpg',
             },
             {
                 title: 'Deep Learning com JS',
                 author: "Various Authors",
                 alreadyRead: true,
-                imageUrl: 'js_library/livros/deeplearning.jpg',
+                imageUrl: 'livros/deeplearning.jpg',
             },
             {
                 title: 'Joy Of Javascript',
                 author: "Luis Ascencio",
                 alreadyRead: false,
-                imageUrl: 'js_library/livros/joj.jpg',
+                imageUrl: 'livros/joj.jpg',
             },
             {
                 title: 'React Hooks in Action',
                 author: "John Larsen",
                 alreadyRead: true,
-                imageUrl: 'js_library/livros/reacthooks.jpg', //Original code changed as I have tonnes and tonnes of subfolders
+                imageUrl: 'livros/reacthooks.jpg', //Original code changed as I have tonnes and tonnes of subfolders
                                                                                     //Otherwise, the links would be broken
                                                                                     //And there would be no pics for anyone
             },
