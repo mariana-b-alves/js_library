@@ -47,6 +47,38 @@ p{
     margin-bottom: .7em;
 }
 
+.btn{
+    padding: 1em;
+    margin-bottom: 2.5em;
+    border-radius: 10px;
+
+
+    background-color: crimson;
+    color: white;  
+}
+
+.btn:hover, .btn:active{
+    background-color: rgb(227, 87, 115);
+    transform: scale(1.05);
+}
+
+p{
+    font-size: 1.45em;
+
+    background-image: linear-gradient(#fff, #fff);
+    background-size: 0% .07em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+p:hover{
+    background-size: 100% 0.07em;
+}
+
+
+
 /*RESPONSIVE STYLE*/
 @media screen and (min-width:900px) {
     section{
